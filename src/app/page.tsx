@@ -37,7 +37,7 @@ const heroesFiltrado = hero.filter((charFind)=>(
 console.log(heroesFiltrado)
   return (
     <div>
-      <h1>Hyperion Dashboard</h1>
+      <h1>My Tournament Dota 2</h1>
       
       <FullWidth texto="Buscar partidas por ID" value={idMatches} change={(e:any)=>setIdMatches(e.target.value)} />
       <LlaveIzquierda value= {idMatchesActualizado}  />
